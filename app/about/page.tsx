@@ -3,7 +3,7 @@ import Hero from "@/src/components/Hero"
 export default function AboutPage() {
   return (
     <>
-      <Hero image="/hero4.png" title="" />
+      <Hero image="/Hero4.png" title="" />
 
       <section className="section">
         <h2>About 3THVN</h2>

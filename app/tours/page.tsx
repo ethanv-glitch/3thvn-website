@@ -3,7 +3,7 @@ import Hero from "@/src/components/Hero"
 export default function ToursPage() {
   return (
     <>
-      <Hero image="/hero3.png" title="" />
+      <Hero image="/Hero3.png" title="" />
 
       <section className="section">
         <h2>Upcoming Shows</h2>

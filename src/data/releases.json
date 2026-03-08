@@ -1,0 +1,26 @@
+[
+  {
+    "id": "alive",
+    "title": "Alive",
+    "date": "2024",
+    "type": "single",
+    "cover": "/covers/alive.png",
+    "spotify": "https://open.spotify.com/track/xxxx"
+  },
+  {
+    "id": "broken-heart",
+    "title": "Broken Heart",
+    "date": "2025",
+    "type": "single",
+    "cover": "/covers/broken-heart.png",
+    "spotify": "https://open.spotify.com/track/xxxx"
+  },
+  {
+    "id": "under",
+    "title": "Under",
+    "date": "2026",
+    "type": "single",
+    "cover": "/covers/under.png",
+    "spotify": "https://open.spotify.com/track/xxxx"
+  }
+]

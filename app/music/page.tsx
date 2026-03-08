@@ -1,14 +1,24 @@
 import Hero from "@/src/components/Hero"
+import TriangleReveal from "@/src/components/TriangleReveal"
+import TrackList from "@/src/components/Tracklist"
+import YearsTimeline from "@/src/components/music/YearsTimeline"
+import CatalogGrid from "@/src/components/music/CatalogGrid"
+
 
 export default function MusicPage() {
   return (
     <>
-      <Hero image="/hero-music.png" title="" />
+      <Hero image="/hero-music.png" title="MUSIC" />
+      <TriangleReveal />
+      <TrackList />
 
       <section className="section">
-        <h2>Discography</h2>
-        <p>Albums and singles by 3THVN.</p>
       </section>
+
+      <YearsTimeline />
+      <CatalogGrid />
+
+      
     </>
   )
 }

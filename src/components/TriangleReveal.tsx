@@ -8,8 +8,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function TriangleReveal() {
 
-  const wrapperRef = useRef(null);
-  const imageRef = useRef(null);
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
+  const imageRef = useRef<HTMLImageElement | null>(null);
 
   useEffect(() => {
 
@@ -42,7 +42,7 @@ export default function TriangleReveal() {
 
     }, wrapperRef);
 
-    return () => ctx.revert();
+    return () => ctx.revert(); // ⭐ important for page navigation cleanup
 
   }, []);
 

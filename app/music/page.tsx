@@ -3,7 +3,7 @@ import Hero from "@/src/components/Hero"
 export default function MusicPage() {
   return (
     <>
-      <Hero image="/Hero2.png" title="" />
+      <Hero image="/hero-music.png" title="" />
 
       <section className="section">
         <h2>Discography</h2>

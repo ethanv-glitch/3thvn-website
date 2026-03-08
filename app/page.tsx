@@ -9,7 +9,7 @@ export default function Home() {
     
     <main>
       <Navbar />
-      <Hero image="/Hero.png" title="" />
+      <Hero image="/hero-home.png" title="" />
       <NewAlbum />
       <TriangleReveal />
       <TrackList />
